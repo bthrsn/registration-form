@@ -1,0 +1,16 @@
+.AppHeader {
+  display: block;
+  font-style: normal;
+  margin: 5px 30px 52.55px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 44px;
+  margin-bottom: 0px;
+}
+span {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}

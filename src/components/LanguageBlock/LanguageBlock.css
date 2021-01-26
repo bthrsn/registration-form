@@ -1,0 +1,73 @@
+.select-wrapper {
+  margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  }
+
+span {
+  margin-bottom: 6.08px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #756F86;
+}
+
+.select-trigger {
+  display: block;
+  padding: 16px;
+  border: 1px solid #DBE2EA;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(44, 39, 56, 0.04);
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: normal;
+  color: #7C9CBF;
+  cursor: pointer;
+  background: #FFFFFF url('../../assets/img/Icon.svg') 98% center no-repeat;
+}
+
+.select-active {
+  outline: none;
+  border: 2px solid #0880AE;
+  color: #2C2738;
+}
+
+.select {
+  display: block;
+  padding: 12px 1px;
+  margin: 0; 
+  border: 1px solid #EBF4F8;;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.dropdown-wrapper {
+  position: absolute;
+  z-index: 100;
+  display: block;
+  margin-top: 85px;
+  width: 30%;
+  min-width: 305px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.option {
+  display: block;
+  height: 44px;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  color: #756F86;
+  background: #FFFFFF;
+  list-style-type: none;
+}
+
+.option:first-child {
+  display: none;
+}
+
+.option:hover {
+  background-color: #EBF4F8;
+}
